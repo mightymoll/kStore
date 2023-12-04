@@ -11,7 +11,7 @@
 
 <body>
   <header class="mb-5">
-    <!-- TO DO: create & import header -->
+    <?php require_once('header.php'); ?>
   </header>
 
   <!-- card class from bootstrap -->

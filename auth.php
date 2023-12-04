@@ -20,9 +20,8 @@ $user = array_unique($ps->fetch());
 if (isset($user)) {
   session_start();
   $_SESSION["PROFILE"] = $user;
-  // for TESTING
-  var_dump($user);
-  // TO DO: redirect to product page
+  // for TESTING : var_dump($user);
+  header("location: products.php");
 } else {
   header("location: login.php");
 }
