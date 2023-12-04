@@ -13,8 +13,7 @@
         <li class="nav-item">
           <?php
           if (isset($_SESSION['PROFILE']) && $_SESSION['PROFILE']['role'] == 'ADMIN') {
-            // to do :  gestion product.php
-            echo "<a class='nav-link' href='#'>Gestion Produit</a>";
+            echo "<a class='nav-link' href='manageProducts.php'>Gestion Produit</a>";
           } ?>
         </li>
         <!-- button for login/logout -->
